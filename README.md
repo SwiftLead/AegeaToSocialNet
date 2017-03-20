@@ -16,6 +16,13 @@
 
 найдите код
 ```
+<?php if (array_key_exists ('summary', $content)): ?>
+<meta name="description" content="<?= $content['summary'] ?>" />
+<?php endif ?>
+
+<?php foreach ($content['og-images'] as $image): ?>
+<meta property="og:image" content="<?= $image ?>" />
+<?php endforeach ?>
 
 ```
 
