@@ -6,30 +6,36 @@
  
  ### Установка
  
-1. Скачайте папку ogImage и закиньте ее в корень сайта
-2. Настройте -- зайдите в ogImage/index.php
+1. Скачайте папку ```/ogImage/``` и закиньте ее в корень своего сайта
+2. Откройте файл /ogImage/index.php
  - укажите ссылку на блог на 12 строке
  - на строках 75 - 126 настройте цвета и размеры
 
 3. Подключите скрипт в Эгее:
 откройте файл /<папка с блогом>/system/theme/templates/head.tmpl.php
 
+найдите код
 ```
 
+```
+
+и замените его на:
+
+```
 <!-- Микроформаты -->
 <?php
-
 // Находим картинку, если нет — задаем дефолтную
+$my_site = 'https://maksfedorov.ru';
 $s = explode("/",$content["notes"]["only"]['href-original']);
 $shortLink = $s[5];
 if ($shortLink == false){ $shortLink ='default';};
 
 $result_ogimage = $content['og-images'][0];
-if ($result_ogimage == 'https://maksfedorov.ru/blog/user/userpic@2x.jpg'){
-	$result_ogimage = 'https://maksfedorov.ru/og_image/?ogimg='.$shortLink;
+if ($result_ogimage == $my_site. '/blog/user/userpic@2x.jpg'){
+	$result_ogimage = $my_site.'/og_image/?ogimg='.$shortLink;
 }
 else {
-    $result_ogimage = 'https://maksfedorov.ru/og_image/?ogimg='.$shortLink;
+    $result_ogimage = $my_site.'/og_image/?ogimg='.$shortLink;
 };
 ?>
 
@@ -52,4 +58,4 @@ else {
 <meta property="twitter:image" content="<?= $result_ogimage ?>" />
 <?php endif ?>
 ```
-замените на свои данные адрес сайта, аккаунт Твиттера и название сайта
+замените на свои данные  аккаунт Твиттера и название сайта
