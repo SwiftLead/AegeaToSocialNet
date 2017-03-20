@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-501">
-                <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -187,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490025716082</updated>
-      <workItem from="1490025722021" duration="1742000" />
+      <workItem from="1490025722021" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="g">
       <created>1490026200477</created>
@@ -224,11 +224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490027391627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Перенос 5">
+      <created>1490027485575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490027485575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1742000" />
+    <option name="totallyTimeSpent" value="2039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -267,7 +274,8 @@
     <MESSAGE value="Перенос 2" />
     <MESSAGE value="Перенос 3" />
     <MESSAGE value="Перенос 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перенос 4" />
+    <MESSAGE value="Перенос 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенос 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -293,8 +301,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-501">
-            <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
