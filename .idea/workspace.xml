@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f991631-5ba0-4b03-b051-303e1e193041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/font/GraphikLC-Bold-Web.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/font/arial.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/font/pt-sans-caption.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/img/template.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/img/userpick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/PHPImage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ogImage/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -169,12 +161,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490025716082</updated>
-      <workItem from="1490025722021" duration="453000" />
+      <workItem from="1490025722021" duration="464000" />
     </task>
+    <task id="LOCAL-00001" summary="g">
+      <created>1490026200477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490026200477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453000" />
+    <option name="totallyTimeSpent" value="464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -208,7 +208,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="g" />
+    <option name="LAST_COMMIT_MESSAGE" value="g" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
