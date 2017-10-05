@@ -18,7 +18,7 @@
 откройте файл /<папка с блогом>/system/theme/templates/head.tmpl.php
 
 найдите код
-```
+```php
 <?php if (array_key_exists ('summary', $content)): ?>
 <meta name="description" content="<?= $content['summary'] ?>" />
 <?php endif ?>
@@ -31,7 +31,7 @@
 
 и замените его на:
 
-```
+```php
 <!-- Микроформаты -->
 <?php
 // Находим картинку, если нет — задаем дефолтную
